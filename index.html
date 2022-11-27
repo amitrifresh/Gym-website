@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifresh's fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+
+        color: rgb(36, 218, 250);
+        margin: 0px;
+        padding: 0px;
+
+        background: url('img_5');
+        background-size: cover;
+
+    }
+
+    .left {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        /* border: 1px solid green; */
+        font-size: 12px;
+        color: aliceblue;
+    }
+
+    .left img {
+        width: 60px;
+        cursor: pointer;
+       filter: invert(100%);
+
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 0px auto;
+        padding: 0px;
+        /* border: 1px solid rgb(5, 245, 57); */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 0px;
+        top: 13px;
+
+        /* border: 1px solid rgb(24, 204, 39); */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .navbar li a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    .navbar li a:hover {
+        color: rgb(48, 131, 99);
+        text-decoration: none;
+        padding: px;
+        text-decoration: underline;
+    }
+
+    .btn {
+        margin: 0px 5px;
+        color: aliceblue;
+        background-color: black;
+        border-radius: 5px;
+        border: 2px solid rgb(17, 71, 73);
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(17, 36, 41);
+    }
+
+    .container {
+
+        margin: 45px;
+        color: rgb(224, 216, 216);
+        border: 1px solid rgb(210, 226, 210);
+        padding: 15px;
+        border-radius: 15px;
+        font-size: 10px;
+        width: 50%;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 200px;
+        padding: 5px;
+        margin: 2px auto;
+        border-radius: 5px;
+    }
+
+    .container h2 {
+        text-align: center;
+
+    }
+
+    .container button {
+        display: block;
+        width: 30%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="logo_70.webp" alt="">
+            <div>Amit fitness</div>
+
+        </div>
+        <!-- mid box for navigationb -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn"> email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>join the best gym of bhopal now</h2>
+        <form class="noaction">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
